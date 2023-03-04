@@ -13,11 +13,4 @@ public class Person {
         this.lastName = lastName;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
-    }
 }

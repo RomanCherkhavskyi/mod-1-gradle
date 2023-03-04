@@ -1,5 +1,7 @@
 package org.example;
 
+import com.google.gson.Gson;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,8 +9,10 @@ public class Main {
         person.setName("Roman");
         person.setLastName("Cherkhavskyi");
 
+        Gson gson = new Gson();
+
+        System.out.println(gson.toJson(person));
 
 
-        System.out.println(person.toString());
     }
 }
